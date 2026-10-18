@@ -1,0 +1,21 @@
+# Secrets - NEVER commit these
+.env
+
+# Model artifacts (large files - keep out of git)
+outputs/
+merged/
+gguf/
+llama.cpp/
+*.gguf
+*.safetensors
+*.bin
+
+# Generated / downloaded at runtime
+Modelfile
+convert_hf_to_gguf.py
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+*.log

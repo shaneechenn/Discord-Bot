@@ -1,0 +1,9 @@
+# Reference only - setup.ps1 installs all of these into the conda env.
+#   unsloth  -> pulls PyTorch (CUDA), transformers, TRL, PEFT, accelerate,
+#               bitsandbytes, datasets, tokenizers at compatible versions.
+unsloth
+
+# Discord bot runtime
+discord.py>=2.3
+ollama
+python-dotenv
